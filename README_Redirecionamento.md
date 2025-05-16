@@ -1,6 +1,3 @@
-Perfeito! Aqui está o **tutorial completo**, agora com os **comandos para Linux e macOS** sempre que houver diferença entre eles:
-
----
 
 ## 🚀 **Tutorial: Servir Aplicação React com Nginx (macOS + Linux)**
 
