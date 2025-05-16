@@ -1,5 +1,5 @@
 
-## 🚀 **Tutorial: Servir Aplicação React com Nginx (macOS + Linux)**
+## 🚀 **Tutorial: Aplicação React com Nginx (macOS + Linux)**
 
 ### 🧰 **Pré-requisitos**
 
@@ -86,16 +86,16 @@ npm run build
 
 ```bash
 sudo mkdir -p /var/www/cafeteria
-sudo cp -r build/* /var/www/cafeteria/
+sudo cp -r dist/* /var/www/cafeteria/
 ```
 
 > 🔸 **macOS (Homebrew):**
 
 ```bash
 sudo mkdir -p /opt/homebrew/var/www/cafeteria
-sudo cp -r build/* /opt/homebrew/var/www/cafeteria/
+sudo cp -r dist/* /opt/homebrew/var/www/cafeteria/
 ```
-
+Utilizo o  `dist` pois a aplicação React foi gerada com o VITE.
 ---
 
 ### ✅ **6. Criar o arquivo de configuração do site**
@@ -186,6 +186,3 @@ http://localhost:8080
 
 🎉 A aplicação React estará rodando via Nginx!
 
----
-
-Se quiser, posso gerar um **PDF personalizado** com esse passo a passo, pronto pra imprimir ou salvar. Deseja isso?
